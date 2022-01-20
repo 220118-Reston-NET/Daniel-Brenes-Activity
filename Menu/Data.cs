@@ -19,6 +19,7 @@ namespace DataFunction
         public void RemoveStrings()
         {
             Console.WriteLine("Which item would you like to remove?");
+
             for (int i =0; i < _strings.Count; i++)
             {
                 Console.WriteLine(i + ":" + _strings[i]) ;
@@ -29,12 +30,23 @@ namespace DataFunction
             if (inputVal >= 0 && inputVal < _strings.Count)
             {
                 _strings.Remove(_strings[inputVal]);
+                Console.WriteLine("Succussful Removal");
             }
 
         }
         public void SearchStrings()
         {
-            
+            Console.WriteLine("Enter the string you are looking for");
+            string inputVal = Console.ReadLine();
+
+            if (_strings.Contains(inputVal))
+            {
+                Console.WriteLine("String Found");
+            }
+            else
+            {    
+                Console.WriteLine("String not found");
+            }
         }
     }
 }

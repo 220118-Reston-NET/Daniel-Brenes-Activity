@@ -10,6 +10,7 @@ namespace MenuFunction
 
             while(repeat)
             {
+
             Console.WriteLine("------- Basic Menu  -------");
             
             Console.WriteLine("1. Add two numbers");
@@ -20,85 +21,88 @@ namespace MenuFunction
             Console.WriteLine("6. Remove strings from Collection");
             Console.WriteLine("7. Enter a string to search in Collection");
             Console.WriteLine("8. Exit Menu");
-            string? userInput = Console.ReadLine();
-
-            if (userInput == "1")
+            int menuInput  = Convert.ToInt32(Console.ReadLine());
+            
+            switch(menuInput)
             {
+            case 1:
                 Console.WriteLine("Please enter two numbers to add");
-                int num1 = Convert.ToInt32(Console.ReadLine());
-                int num2 = Convert.ToInt32(Console.ReadLine());
+                int num11 = Convert.ToInt32(Console.ReadLine());
+                int num22 = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine($"The sum of {num1} and {num2} is {num1+num2}");
+                Console.WriteLine($"The sum of {num11} and {num22} is {num11+num22}");
                 Console.WriteLine("Press enter key to continue");
                 Console.ReadLine();
-            }
+                break;
 
-            else if (userInput == "2")
-            {
+            case 2:
+            
                 Console.WriteLine("Enter a starting number");
-                int num1 = Convert.ToInt32(Console.ReadLine());
+                int num10 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Enter a number to subtract from the first number");
-                int num2 = Convert.ToInt32(Console.ReadLine());
+                int num20 = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine($"When you subtract {num2} from {num1} the result is {num1-num2}");
+                Console.WriteLine($"When you subtract {num20} from {num10} the result is {num10-num20}");
                 Console.WriteLine("Press enter key to continue");
                 Console.ReadLine();
-            }
+                break;
 
-            else if (userInput == "3")
-            {
+            case 3:
+            
                 Console.WriteLine("Enter two numbers to multiply together");
-                int num1 = Convert.ToInt32(Console.ReadLine());
-                int num2 = Convert.ToInt32(Console.ReadLine());
+                int num13 = Convert.ToInt32(Console.ReadLine());
+                int num23 = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine($"{num1} * {num2} is {num1*num2}");
+                Console.WriteLine($"{num13} * {num23} is {num13*num23}");
                 Console.WriteLine("Press enter key to continue");
                 Console.ReadLine();
+                break;
 
-
-            }
-            else if (userInput == "4")
-            {
+            
+            case 4:
+            
                 Console.WriteLine("Enter a string to add to Collection");
                 string str = Console.ReadLine();
                 data1.AddStrings(str);
                 Console.WriteLine("Press enter key to continue");
                 Console.ReadLine();
 
-            }
-            else if (userInput == "5")
-            {
+                break;
+
+            case 5:
+            
                 data1.ShowStrings();
                 Console.WriteLine("Press enter key to continue");
                 Console.ReadLine();
-                
-            }
-            else if (userInput == "6")
-            {
+                break;
+            
+            case 6:
+            
                 data1.RemoveStrings();
                 Console.WriteLine("Press enter key to continue");
                 Console.ReadLine();
-
-            }
-            else if (userInput == 7)
-            {
-                
-            }
+                break;
             
-            else if (userInput == "8")
-            {
+            case 7:
+            
+                data1.SearchStrings();
+                break;
+            
+            case 8:
+            
                 repeat = false;
                 Console.WriteLine("Goodbye");
-            }
+                break;
 
-            else {
+            default:
+            
                 Console.WriteLine("Invalid input, try again");
                 Console.WriteLine("Press enter key to go back and try again");
                 Console.ReadLine();
-            };
+                break;
 
             };
-
+            }
         }
     }
 }
