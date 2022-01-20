@@ -1,3 +1,4 @@
+using System.Collections;
 namespace CollectionFunction
 {
     public class Collection
@@ -27,6 +28,7 @@ namespace CollectionFunction
 
         //Non-generic Collection
         //They store any datatype and have variable size
+        private ArrayList _nonGeneric = new ArrayList(); 
         public void CollectionMain()
         {
             Console.WriteLine("==== Collection Demo====");
@@ -79,6 +81,10 @@ namespace CollectionFunction
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("---Non-generic Collection---");
+            _nonGeneric.Add("Stephen");
+            _nonGeneric.Add(10);
+            _nonGeneric.Add(true);
 
         }
     }

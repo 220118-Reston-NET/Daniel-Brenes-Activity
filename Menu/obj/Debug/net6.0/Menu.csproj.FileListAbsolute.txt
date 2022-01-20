@@ -1,0 +1,15 @@
+C:\Users\veron\Documents\Revature\Menu\bin\Debug\net6.0\Menu.exe
+C:\Users\veron\Documents\Revature\Menu\bin\Debug\net6.0\Menu.deps.json
+C:\Users\veron\Documents\Revature\Menu\bin\Debug\net6.0\Menu.runtimeconfig.json
+C:\Users\veron\Documents\Revature\Menu\bin\Debug\net6.0\Menu.dll
+C:\Users\veron\Documents\Revature\Menu\bin\Debug\net6.0\ref\Menu.dll
+C:\Users\veron\Documents\Revature\Menu\bin\Debug\net6.0\Menu.pdb
+C:\Users\veron\Documents\Revature\Menu\obj\Debug\net6.0\Menu.csproj.AssemblyReference.cache
+C:\Users\veron\Documents\Revature\Menu\obj\Debug\net6.0\Menu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veron\Documents\Revature\Menu\obj\Debug\net6.0\Menu.AssemblyInfoInputs.cache
+C:\Users\veron\Documents\Revature\Menu\obj\Debug\net6.0\Menu.AssemblyInfo.cs
+C:\Users\veron\Documents\Revature\Menu\obj\Debug\net6.0\Menu.csproj.CoreCompileInputs.cache
+C:\Users\veron\Documents\Revature\Menu\obj\Debug\net6.0\Menu.dll
+C:\Users\veron\Documents\Revature\Menu\obj\Debug\net6.0\ref\Menu.dll
+C:\Users\veron\Documents\Revature\Menu\obj\Debug\net6.0\Menu.pdb
+C:\Users\veron\Documents\Revature\Menu\obj\Debug\net6.0\Menu.genruntimeconfig.cache
