@@ -1,6 +1,8 @@
 ﻿using CarFunction;
 using CollectionFunction;
 using ConversionFunction;
+using SerializationFunction;
+
 // See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
 
@@ -50,3 +52,5 @@ Conversion conv2 = new Conversion();
 
 Console.WriteLine(conv1.GiveMeNumber());
 Console.WriteLine(conv2.GiveMeNumber());
+
+Serialization.SerialMain();

@@ -22,12 +22,12 @@ public class Car
         get {return "The color is " + _color;}
         set {_color = value;}
     } 
-  //  public string Owner
-    //{
+    public string Owner
+    {
 
-    //     get { return myVar; }
-     //   set { myVar = value; }
-  //  }
+        get { return _owner; }
+       set { _owner = value; }
+    }
     public int Fuel {get ; set ; }
 
     // A method will run multiple lines of code to do some sort of operation/behavior/function
@@ -53,7 +53,7 @@ public class Car
         return (double)Fuel/_gallonPerMile;
     }
 
-    public Car(int p_fuel)
+    public Car()
     {
         _color = "Blue";
         _gallonPerMile = 10;
