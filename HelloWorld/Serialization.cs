@@ -32,15 +32,54 @@ namespace SerializationFunction
             string jsonString = JsonSerializer.Serialize(car1, new JsonSerializerOptions { WriteIndented = true});
             Console.WriteLine(jsonString);
 
+            
             File.WriteAllText(_filepath, jsonString);
 
             Console.WriteLine("=Converting JSON to object=");
-            string jsonString2 = File.ReadAllText(_filepath);
+            //File.ReadAllText() static method will read our JSON file and store it in our jsonString2
 
-            Car car2 = JsonSerializer.Deserialize<Car>(jsonString2);
-            Console.WriteLine(car2.Color);
-            Console.WriteLine(car2.Fuel);
-            Console.WriteLine(car2.Owner);
+            //Try block is used to have lines of code that you might expect to run into some
+            try
+            {
+                string jsonString2 = File.ReadAllText(_filepath);
+
+                 Car car2 = JsonSerializer.Deserialize<Car>(jsonString2);
+                Console.WriteLine(car2.Color);
+                Console.WriteLine(car2.Fuel);
+                Console.WriteLine(car2.Owner);
+
+            }
+            //Catch block will execute if it did run into that specific exception
+            catch (FileNotFoundException)
+            {
+                Console.WriteLine("File not found");
+                List<Car> genericList = new List<Car>();
+
+                genericList.Add(new Car());
+
+                string jsonString3 = JsonSerializer.Serialize(genericList);
+                File.WriteAllText(_filepath, jsonString3);
+
+                jsonString3 = File.ReadAllText(_filepath);
+
+                List<Car> car2 = JsonSerializer.Deserialize<listOfCars<Car>>(jsonString3);
+
+                Console.WriteLine(car2[0].Color);
+                Console.WriteLine(car2[0].Fuel);
+                Console.WriteLine(car2[0].Owner);
+
+            }
+            catch (System.Exception)
+            {
+
+            }
+            finally
+            {
+                Console.WriteLine("All exceptions handled");
+
+            }
+            
+            
 
 
         }

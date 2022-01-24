@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PokeUI/1.0.0": {
+        "dependencies": {
+          "PokeModel": "1.0.0"
+        },
+        "runtime": {
+          "PokeUI.dll": {}
+        }
+      },
+      "PokeModel/1.0.0": {
+        "runtime": {
+          "PokeModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PokeUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PokeModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
