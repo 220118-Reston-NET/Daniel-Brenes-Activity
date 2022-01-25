@@ -16,3 +16,7 @@ C:\Users\veron\Documents\Revature\Poke\PokeUI\obj\Debug\net6.0\PokeUI.dll
 C:\Users\veron\Documents\Revature\Poke\PokeUI\obj\Debug\net6.0\ref\PokeUI.dll
 C:\Users\veron\Documents\Revature\Poke\PokeUI\obj\Debug\net6.0\PokeUI.pdb
 C:\Users\veron\Documents\Revature\Poke\PokeUI\obj\Debug\net6.0\PokeUI.genruntimeconfig.cache
+C:\Users\veron\Documents\Revature\Poke\PokeUI\bin\Debug\net6.0\PokeBL.dll
+C:\Users\veron\Documents\Revature\Poke\PokeUI\bin\Debug\net6.0\PokeDL.dll
+C:\Users\veron\Documents\Revature\Poke\PokeUI\bin\Debug\net6.0\PokeBL.pdb
+C:\Users\veron\Documents\Revature\Poke\PokeUI\bin\Debug\net6.0\PokeDL.pdb

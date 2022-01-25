@@ -1,0 +1,15 @@
+{
+  "Name": "Daniel",
+  "Level": 1,
+  "Attack": 53,
+  "Defense": 53,
+  "Health": 51,
+  "Abilities": [
+    {
+      "Name": null,
+      "PP": 0,
+      "Power": 0,
+      "Accuracy": 0
+    }
+  ]
+}

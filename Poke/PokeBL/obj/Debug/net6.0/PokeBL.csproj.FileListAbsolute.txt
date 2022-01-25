@@ -1,0 +1,17 @@
+C:\Users\veron\Documents\Revature\Poke\PokeBL\obj\Debug\net6.0\PokeBL.csproj.AssemblyReference.cache
+C:\Users\veron\Documents\Revature\Poke\PokeBL\obj\Debug\net6.0\PokeBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veron\Documents\Revature\Poke\PokeBL\obj\Debug\net6.0\PokeBL.AssemblyInfoInputs.cache
+C:\Users\veron\Documents\Revature\Poke\PokeBL\obj\Debug\net6.0\PokeBL.AssemblyInfo.cs
+C:\Users\veron\Documents\Revature\Poke\PokeBL\obj\Debug\net6.0\PokeBL.csproj.CoreCompileInputs.cache
+C:\Users\veron\Documents\Revature\Poke\PokeBL\bin\Debug\net6.0\PokeBL.deps.json
+C:\Users\veron\Documents\Revature\Poke\PokeBL\bin\Debug\net6.0\PokeBL.dll
+C:\Users\veron\Documents\Revature\Poke\PokeBL\bin\Debug\net6.0\ref\PokeBL.dll
+C:\Users\veron\Documents\Revature\Poke\PokeBL\bin\Debug\net6.0\PokeBL.pdb
+C:\Users\veron\Documents\Revature\Poke\PokeBL\bin\Debug\net6.0\PokeDL.dll
+C:\Users\veron\Documents\Revature\Poke\PokeBL\bin\Debug\net6.0\PokeModel.dll
+C:\Users\veron\Documents\Revature\Poke\PokeBL\bin\Debug\net6.0\PokeDL.pdb
+C:\Users\veron\Documents\Revature\Poke\PokeBL\bin\Debug\net6.0\PokeModel.pdb
+C:\Users\veron\Documents\Revature\Poke\PokeBL\obj\Debug\net6.0\PokeBL.csproj.CopyComplete
+C:\Users\veron\Documents\Revature\Poke\PokeBL\obj\Debug\net6.0\PokeBL.dll
+C:\Users\veron\Documents\Revature\Poke\PokeBL\obj\Debug\net6.0\ref\PokeBL.dll
+C:\Users\veron\Documents\Revature\Poke\PokeBL\obj\Debug\net6.0\PokeBL.pdb

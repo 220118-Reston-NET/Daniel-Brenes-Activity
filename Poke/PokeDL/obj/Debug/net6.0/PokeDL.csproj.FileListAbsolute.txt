@@ -3,3 +3,13 @@ C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\PokeDL.GeneratedM
 C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\PokeDL.AssemblyInfoInputs.cache
 C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\PokeDL.AssemblyInfo.cs
 C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\PokeDL.csproj.CoreCompileInputs.cache
+C:\Users\veron\Documents\Revature\Poke\PokeDL\bin\Debug\net6.0\PokeDL.deps.json
+C:\Users\veron\Documents\Revature\Poke\PokeDL\bin\Debug\net6.0\PokeDL.dll
+C:\Users\veron\Documents\Revature\Poke\PokeDL\bin\Debug\net6.0\ref\PokeDL.dll
+C:\Users\veron\Documents\Revature\Poke\PokeDL\bin\Debug\net6.0\PokeDL.pdb
+C:\Users\veron\Documents\Revature\Poke\PokeDL\bin\Debug\net6.0\PokeModel.dll
+C:\Users\veron\Documents\Revature\Poke\PokeDL\bin\Debug\net6.0\PokeModel.pdb
+C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\PokeDL.csproj.CopyComplete
+C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\PokeDL.dll
+C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\ref\PokeDL.dll
+C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\PokeDL.pdb

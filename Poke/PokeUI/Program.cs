@@ -1,5 +1,8 @@
-﻿// using PokeModel;
+﻿//using PokeModel;
 using PokeUI;
+using PokeBL;
+using PokeDL;
+
 // // See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
 

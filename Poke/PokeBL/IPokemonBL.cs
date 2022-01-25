@@ -1,3 +1,5 @@
+using PokeModel;
+
 namespace PokeBL
 {
     /// <summary>

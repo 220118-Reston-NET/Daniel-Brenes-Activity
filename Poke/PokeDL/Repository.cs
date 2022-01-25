@@ -1,4 +1,5 @@
 using PokeModel;
+using System.Text.Json;
 
 namespace PokeDL
 {
@@ -14,7 +15,7 @@ namespace PokeDL
             string path = _filepath + "Pokemon.json";
 
 
-            _jsonString = JsonSerializer.Serialize(p_poke);
+            _jsonString = JsonSerializer.Serialize(p_poke, new JsonSerializerOptions {WriteIndented = true});
 
             File.WriteAllText(path, _jsonString);
 

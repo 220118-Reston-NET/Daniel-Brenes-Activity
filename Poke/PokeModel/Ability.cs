@@ -1,4 +1,5 @@
-namespace PokeModel{
+namespace PokeModel
+{
 
     public class Ability
     {

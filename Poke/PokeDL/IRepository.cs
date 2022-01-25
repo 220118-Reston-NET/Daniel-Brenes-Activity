@@ -9,7 +9,7 @@ namespace PokeDL
     /// the food he is delivering. 
     /// </summary>
 
-    public class IRepository
+    public interface IRepository
     {
         /// <summary>
         /// Add a pokemon to the database

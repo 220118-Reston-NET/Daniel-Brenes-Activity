@@ -6,24 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "PokeUI/1.0.0": {
-        "dependencies": {
-          "PokeBL": "1.0.0",
-          "PokeDL": "1.0.0",
-          "PokeModel": "1.0.0"
-        },
-        "runtime": {
-          "PokeUI.dll": {}
-        }
-      },
-      "PokeBL/1.0.0": {
-        "dependencies": {
-          "PokeDL": "1.0.0"
-        },
-        "runtime": {
-          "PokeBL.dll": {}
-        }
-      },
       "PokeDL/1.0.0": {
         "dependencies": {
           "PokeModel": "1.0.0"
@@ -40,16 +22,6 @@
     }
   },
   "libraries": {
-    "PokeUI/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "PokeBL/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "PokeDL/1.0.0": {
       "type": "project",
       "serviceable": false,
