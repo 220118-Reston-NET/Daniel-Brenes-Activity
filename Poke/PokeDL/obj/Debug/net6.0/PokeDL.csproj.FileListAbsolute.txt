@@ -1,0 +1,5 @@
+C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\PokeDL.csproj.AssemblyReference.cache
+C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\PokeDL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\PokeDL.AssemblyInfoInputs.cache
+C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\PokeDL.AssemblyInfo.cs
+C:\Users\veron\Documents\Revature\Poke\PokeDL\obj\Debug\net6.0\PokeDL.csproj.CoreCompileInputs.cache

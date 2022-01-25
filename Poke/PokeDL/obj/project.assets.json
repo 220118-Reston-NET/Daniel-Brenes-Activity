@@ -2,32 +2,6 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "PokeBL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "PokeDL": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PokeBL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PokeBL.dll": {}
-        }
-      },
-      "PokeDL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "PokeModel": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PokeDL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PokeDL.dll": {}
-        }
-      },
       "PokeModel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -41,16 +15,6 @@
     }
   },
   "libraries": {
-    "PokeBL/1.0.0": {
-      "type": "project",
-      "path": "../PokeBL/PokeBL.csproj",
-      "msbuildProject": "../PokeBL/PokeBL.csproj"
-    },
-    "PokeDL/1.0.0": {
-      "type": "project",
-      "path": "../PokeDL/PokeDL.csproj",
-      "msbuildProject": "../PokeDL/PokeDL.csproj"
-    },
     "PokeModel/1.0.0": {
       "type": "project",
       "path": "../PokeModel/PokeModel.csproj",
@@ -59,8 +23,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "PokeBL >= 1.0.0",
-      "PokeDL >= 1.0.0",
       "PokeModel >= 1.0.0"
     ]
   },
@@ -71,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\veron\\Documents\\Revature\\Poke\\PokeUI\\PokeUI.csproj",
-      "projectName": "PokeUI",
-      "projectPath": "C:\\Users\\veron\\Documents\\Revature\\Poke\\PokeUI\\PokeUI.csproj",
+      "projectUniqueName": "C:\\Users\\veron\\Documents\\Revature\\Poke\\PokeDL\\PokeDL.csproj",
+      "projectName": "PokeDL",
+      "projectPath": "C:\\Users\\veron\\Documents\\Revature\\Poke\\PokeDL\\PokeDL.csproj",
       "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\veron\\Documents\\Revature\\Poke\\PokeUI\\obj\\",
+      "outputPath": "C:\\Users\\veron\\Documents\\Revature\\Poke\\PokeDL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -96,12 +58,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\veron\\Documents\\Revature\\Poke\\PokeBL\\PokeBL.csproj": {
-              "projectPath": "C:\\Users\\veron\\Documents\\Revature\\Poke\\PokeBL\\PokeBL.csproj"
-            },
-            "C:\\Users\\veron\\Documents\\Revature\\Poke\\PokeDL\\PokeDL.csproj": {
-              "projectPath": "C:\\Users\\veron\\Documents\\Revature\\Poke\\PokeDL\\PokeDL.csproj"
-            },
             "C:\\Users\\veron\\Documents\\Revature\\Poke\\PokeModel\\PokeModel.csproj": {
               "projectPath": "C:\\Users\\veron\\Documents\\Revature\\Poke\\PokeModel\\PokeModel.csproj"
             }
