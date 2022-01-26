@@ -17,6 +17,10 @@ namespace PokeDL
         /// <param name = "p_poke"> This the pokemon object we are adding to the database <>
         Pokemon AddPokemon(Pokemon p_poke);
 
+        /// <summary>
+        /// Will give all pokemon in the database
+        /// </summary>
+        List<Pokemon> GetAllPokemon();
 
     }
 }

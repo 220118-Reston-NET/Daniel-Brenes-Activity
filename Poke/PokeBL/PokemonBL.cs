@@ -30,7 +30,17 @@ public class PokemonBL : IPokemonBL
         p_poke.Attack = p_poke.Attack + rand.Next(-5, 5);
         p_poke.Defense += rand.Next(-5,5);
         p_poke.Health += rand.Next(-5,5);
-
+        
+        // Validation process
+        List<Pokemon> listOfPoke = _repo.GetAllPokemon();
+        if (listOfPoke.Count < 4)
+        {
+            _repo.AddPokemon(p_poke);
+        }
+        else
+        {
+                    throw new Exception ("You cannot have more than 4 pokemon");
+        }
 
         return _repo.AddPokemon(p_poke);
     }
