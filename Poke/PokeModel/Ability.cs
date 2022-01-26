@@ -15,11 +15,20 @@ namespace PokeModel
                     _PP = value;
                 }
                 else
-                throw new System.Exception("You cannot set PP lower than 0!");
+                {
+                throw new Exception("You cannot set PP lower than 0!");
+                }
             }
         }
         
         public int Power {get; set;}
         public int Accuracy {get; set;}
+        public Ability()
+        {
+            Name = "Tackle";
+            PP = 40;
+            Power = 40;
+            Accuracy = 80;
+        }
     }
 }
