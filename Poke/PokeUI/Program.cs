@@ -11,6 +11,8 @@ using PokeDL;
 // Ability ab = new Ability();
 // ab.PP = -1;
 
+
+
 Log.Logger = new LoggerConfiguration()
                     .WriteTo.File("./logs/user.text")//We configure our logger to save in this file
                         .CreateLogger();
@@ -21,18 +23,20 @@ IMenu menu = new MainMenu();
 while (repeat)
 {
     Console.Clear();
+    
     menu.Display();
     string ans = menu.UserChoice();
-    
+
     switch (ans)
     {
         case "SearchPokemon":
         
             Log.Information("Displaying SearchPokemon menu to user");
-        menu = new SearchPokemonMenu(new PokemonBL(new Repository()));
-        break;
+            menu = new SearchPokemonMenu(new PokemonBL(new Repository()));
+            break;
         case "AddPokemon":
         
+
             Log.Information("Displaying AddPokemon menu to user");
             menu = new AddPokeMenu(new PokemonBL(new Repository()));
             break;

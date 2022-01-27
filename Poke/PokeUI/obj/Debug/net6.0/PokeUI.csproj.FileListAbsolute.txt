@@ -20,3 +20,5 @@ C:\Users\veron\Documents\Revature\Poke\PokeUI\bin\Debug\net6.0\PokeBL.dll
 C:\Users\veron\Documents\Revature\Poke\PokeUI\bin\Debug\net6.0\PokeDL.dll
 C:\Users\veron\Documents\Revature\Poke\PokeUI\bin\Debug\net6.0\PokeBL.pdb
 C:\Users\veron\Documents\Revature\Poke\PokeUI\bin\Debug\net6.0\PokeDL.pdb
+C:\Users\veron\Documents\Revature\Poke\PokeUI\bin\Debug\net6.0\Serilog.dll
+C:\Users\veron\Documents\Revature\Poke\PokeUI\bin\Debug\net6.0\Serilog.Sinks.File.dll

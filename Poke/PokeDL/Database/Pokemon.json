@@ -1,16 +1,17 @@
-[{
-  "Name": "Daniel",
-  "Level": 1,
-  "Attack": 53,
-  "Defense": 53,
-  "Health": 51,
-  "Abilities": [
-    {
-      "Name": null,
-      "PP": 0,
-      "Power": 0,
-      "Accuracy": 0
-    }
-  ]
-}
+[
+  {
+    "Name": "Daniel",
+    "Level": 55,
+    "Attack": 57,
+    "Defense": 50,
+    "Health": 51,
+    "Abilities": [
+      {
+        "Name": "Tackle",
+        "PP": 40,
+        "Power": 40,
+        "Accuracy": 80
+      }
+    ]
+  }
 ]

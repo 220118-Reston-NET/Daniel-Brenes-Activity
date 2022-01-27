@@ -1,0 +1,75 @@
+2022-01-27 10:02:40.224 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:02:44.730 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:02:46.872 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:02:48.152 -06:00 [INF] Adding pokemon 
+Name: Dan
+Level: 55
+Attack: 55
+Defense: 55
+Health: 55
+2022-01-27 10:02:48.215 -06:00 [WRN] Failed to add pokemon due to reaching total capacity (4)
+2022-01-27 10:10:56.266 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 10:10:58.178 -06:00 [INF] Exiting application
+2022-01-27 10:15:33.867 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:15:36.263 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:15:40.093 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:15:43.606 -06:00 [INF] Adding pokemon 
+Name: Daniel
+Level: 55
+Attack: 55
+Defense: 55
+Health: 55
+2022-01-27 10:15:43.701 -06:00 [INF] Successful at adding pokemon!
+2022-01-27 10:15:43.701 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 10:15:52.439 -06:00 [INF] Displaying SearchPokemon menu to user
+2022-01-27 10:16:20.535 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:16:23.008 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:16:26.248 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:16:27.717 -06:00 [INF] Adding pokemon 
+Name: Dan
+Level: 9000
+Attack: 55
+Defense: 55
+Health: 55
+2022-01-27 10:16:27.802 -06:00 [INF] Successful at adding pokemon!
+2022-01-27 10:16:27.802 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 10:17:29.646 -06:00 [INF] Exiting application
+2022-01-27 10:17:40.786 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:17:43.609 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:17:46.168 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:17:47.185 -06:00 [INF] Adding pokemon 
+Name: Dan
+Level: 100
+Attack: 55
+Defense: 55
+Health: 55
+2022-01-27 10:17:47.237 -06:00 [WRN] Failed to add pokemon due to reaching total capacity (4)
+2022-01-27 10:18:07.951 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 10:18:09.672 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:18:12.354 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:18:15.593 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 10:18:16.350 -06:00 [INF] Adding pokemon 
+Name: Dan
+Level: 99
+Attack: 57
+Defense: 56
+Health: 56
+2022-01-27 10:18:16.378 -06:00 [INF] Successful at adding pokemon!
+2022-01-27 10:18:16.378 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 10:18:20.350 -06:00 [INF] Displaying SearchPokemon menu to user
+2022-01-27 10:24:10.549 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 10:24:12.526 -06:00 [INF] Exiting application
+2022-01-27 12:40:40.126 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 12:40:46.654 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 12:40:49.411 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 12:40:51.123 -06:00 [INF] Adding pokemon 
+Name: Daniel
+Level: 55
+Attack: 55
+Defense: 55
+Health: 55
+2022-01-27 12:40:51.192 -06:00 [INF] Successful at adding pokemon!
+2022-01-27 12:40:51.192 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 12:40:52.954 -06:00 [INF] Displaying SearchPokemon menu to user
+2022-01-27 12:40:58.600 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 12:41:00.259 -06:00 [INF] Exiting application

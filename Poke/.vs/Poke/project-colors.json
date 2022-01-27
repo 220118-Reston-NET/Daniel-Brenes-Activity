@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "be37be55-a89a-4ed2-8c61-be2c738a7960": {
+      "ProjectGuid": "be37be55-a89a-4ed2-8c61-be2c738a7960",
+      "DisplayName": "PokeUI",
+      "ColorIndex": 0
+    },
+    "5ade2c74-07de-44f3-b694-e75c88716e7e": {
+      "ProjectGuid": "5ade2c74-07de-44f3-b694-e75c88716e7e",
+      "DisplayName": "PokeModel",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
