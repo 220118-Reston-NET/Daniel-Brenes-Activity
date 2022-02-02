@@ -143,3 +143,17 @@ Health: 58
 2022-01-28 08:34:56.600 -06:00 [INF] Displaying MainMenu to user
 2022-01-28 08:35:01.635 -06:00 [INF] Displaying MainMenu to user
 2022-01-28 08:59:58.494 -06:00 [INF] Exiting application
+2022-02-02 13:54:10.679 -06:00 [INF] Displaying AddPokemon menu to user
+2022-02-02 13:54:13.751 -06:00 [INF] Displaying AddPokemon menu to user
+2022-02-02 13:54:15.980 -06:00 [INF] Displaying AddPokemon menu to user
+2022-02-02 13:54:16.647 -06:00 [INF] Adding pokemon 
+Name: Daniel
+Level: 100
+Attack: 55
+Defense: 55
+Health: 55
+2022-02-02 13:54:16.811 -06:00 [INF] Successful at adding pokemon!
+2022-02-02 13:54:16.811 -06:00 [INF] Displaying MainMenu to user
+2022-02-02 13:54:18.820 -06:00 [INF] Displaying SearchPokemon menu to user
+2022-02-02 13:54:24.412 -06:00 [INF] Displaying MainMenu to user
+2022-02-02 13:54:26.365 -06:00 [INF] Exiting application
