@@ -3,6 +3,7 @@ global using Serilog;
 using PokeUI;
 using PokeBL;
 using PokeDL;
+using Microsoft.Extensions.Configuration;
 //global using will implicitly import that namespace to the rest of your C# files inside of this project
 
 // // See https://aka.ms/new-console-template for more information
@@ -16,6 +17,13 @@ using PokeDL;
 Log.Logger = new LoggerConfiguration()
                     .WriteTo.File("./logs/user.text")//We configure our logger to save in this file
                         .CreateLogger();
+
+var configuration = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json")
+    .Build();
+
+string _connectionString = configuration.GetConnectionString("Reference2DB");
 
 bool repeat = true;
 IMenu menu = new MainMenu();
