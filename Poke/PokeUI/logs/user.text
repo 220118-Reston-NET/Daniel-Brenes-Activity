@@ -73,3 +73,73 @@ Health: 55
 2022-01-27 12:40:52.954 -06:00 [INF] Displaying SearchPokemon menu to user
 2022-01-27 12:40:58.600 -06:00 [INF] Displaying MainMenu to user
 2022-01-27 12:41:00.259 -06:00 [INF] Exiting application
+2022-01-27 14:42:07.692 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 14:42:09.787 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 14:42:12.194 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 14:42:13.293 -06:00 [INF] Adding pokemon 
+Name: Daniel
+Level: 55
+Attack: 55
+Defense: 55
+Health: 55
+2022-01-27 14:42:13.363 -06:00 [INF] Successful at adding pokemon!
+2022-01-27 14:42:13.363 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 14:42:14.810 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 14:42:20.852 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 14:42:23.505 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 14:42:24.629 -06:00 [INF] Adding pokemon 
+Name: Bob
+Level: 40
+Attack: 56
+Defense: 56
+Health: 53
+2022-01-27 14:42:24.691 -06:00 [INF] Successful at adding pokemon!
+2022-01-27 14:42:24.692 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 14:42:26.481 -06:00 [INF] Exiting application
+2022-01-27 14:55:49.611 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 14:55:52.842 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 14:55:56.863 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 14:55:58.343 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 14:55:59.329 -06:00 [INF] Adding pokemon 
+Name: Daniel
+Level: 100
+Attack: 55
+Defense: 55
+Health: 55
+2022-01-27 14:55:59.382 -06:00 [INF] Successful at adding pokemon!
+2022-01-27 14:55:59.382 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 14:56:01.715 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 14:56:08.370 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 14:56:12.513 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-27 14:56:14.074 -06:00 [INF] Adding pokemon 
+Name: Daniel
+Level: 10
+Attack: 58
+Defense: 56
+Health: 52
+2022-01-27 14:56:14.084 -06:00 [INF] Successful at adding pokemon!
+2022-01-27 14:56:14.084 -06:00 [INF] Displaying MainMenu to user
+2022-01-27 14:56:48.188 -06:00 [INF] Exiting application
+2022-01-28 08:33:56.714 -06:00 [INF] Exiting application
+2022-01-28 08:34:04.206 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-28 08:34:20.441 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-28 08:34:25.583 -06:00 [INF] Adding pokemon 
+Name: Ditto
+Level: 1
+Attack: 55
+Defense: 55
+Health: 55
+2022-01-28 08:34:25.670 -06:00 [INF] Successful at adding pokemon!
+2022-01-28 08:34:25.670 -06:00 [INF] Displaying MainMenu to user
+2022-01-28 08:34:51.880 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-28 08:34:55.336 -06:00 [INF] Displaying AddPokemon menu to user
+2022-01-28 08:34:56.592 -06:00 [INF] Adding pokemon 
+Name: Daniel
+Level: 1
+Attack: 51
+Defense: 57
+Health: 58
+2022-01-28 08:34:56.600 -06:00 [INF] Successful at adding pokemon!
+2022-01-28 08:34:56.600 -06:00 [INF] Displaying MainMenu to user
+2022-01-28 08:35:01.635 -06:00 [INF] Displaying MainMenu to user
+2022-01-28 08:59:58.494 -06:00 [INF] Exiting application

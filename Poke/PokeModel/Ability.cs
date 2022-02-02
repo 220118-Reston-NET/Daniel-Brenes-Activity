@@ -3,6 +3,7 @@ namespace PokeModel
 
     public class Ability
     {
+        public int AbId {get; set;}
         public string Name {get; set;}
         private int _PP;
         public int PP 

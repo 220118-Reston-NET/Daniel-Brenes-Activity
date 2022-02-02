@@ -1,10 +1,10 @@
 [
   {
     "Name": "Daniel",
-    "Level": 55,
-    "Attack": 57,
-    "Defense": 50,
-    "Health": 51,
+    "Level": 1,
+    "Attack": 50,
+    "Defense": 61,
+    "Health": 58,
     "Abilities": [
       {
         "Name": "Tackle",

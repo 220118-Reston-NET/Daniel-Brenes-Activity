@@ -25,7 +25,7 @@ namespace PokeDL
         }
         public List<Pokemon> GetAllPokemon()
         {
-            //Grab information from tghe JSON file and store it in a string
+            //Grab information from the JSON file and store it in a string
             _jsonString = File.ReadAllText(_filepath + "Pokemon.json");
 
             //Deserialize the jsonString into a List<Pokemon> object and return it

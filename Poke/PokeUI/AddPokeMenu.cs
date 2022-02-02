@@ -13,6 +13,8 @@ namespace PokeUI
         {
             _pokeBL = p_pokeBL;
         }
+        
+        
         public void Display()
         {
             Console.WriteLine("Enter Pokemon information");
@@ -20,6 +22,8 @@ namespace PokeUI
             Console.WriteLine("[2] Level - " + _newPoke.Level);
             Console.WriteLine("[1] Save");
             Console.WriteLine("[0] Go Back");
+            Console.WriteLine();
+            
         }
         public string UserChoice()
         {
