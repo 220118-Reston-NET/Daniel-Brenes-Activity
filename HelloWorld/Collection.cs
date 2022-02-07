@@ -43,7 +43,7 @@ namespace CollectionFunction
 
             Console.WriteLine();
 
-            for (int i =0; i < _nums.Length; i++)
+            for (int i = 0; i < _nums.Length; i++)
             {
                 Console.WriteLine("Current value of i: " + i);
                 Console.WriteLine(_nums[i]);

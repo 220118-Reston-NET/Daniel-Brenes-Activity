@@ -29,21 +29,23 @@ namespace SerializationFunction
             listOfCars.Add(car1);
             listOfCars.Add(car1);
 
-            string jsonString = JsonSerializer.Serialize(car1, new JsonSerializerOptions { WriteIndented = true});
+            string jsonString = JsonSerializer.Serialize(listOfCars, new JsonSerializerOptions { WriteIndented = true});
             Console.WriteLine(jsonString);
 
             
             File.WriteAllText(_filepath, jsonString);
 
             Console.WriteLine("=Converting JSON to object=");
+            
             //File.ReadAllText() static method will read our JSON file and store it in our jsonString2
+            string jsonString2 = File.ReadAllText(_filepath);
 
             //Try block is used to have lines of code that you might expect to run into some
             try
             {
-                string jsonString2 = File.ReadAllText(_filepath);
+                
 
-                 Car car2 = JsonSerializer.Deserialize<Car>(jsonString2);
+                Car car2 = JsonSerializer.Deserialize<Car>(jsonString2);
                 Console.WriteLine(car2.Color);
                 Console.WriteLine(car2.Fuel);
                 Console.WriteLine(car2.Owner);
@@ -62,7 +64,7 @@ namespace SerializationFunction
 
                 jsonString3 = File.ReadAllText(_filepath);
 
-                List<Car> car2 = JsonSerializer.Deserialize<listOfCars<Car>>(jsonString3);
+                List<Car> car2 = JsonSerializer.Deserialize<List<Car>>(jsonString3);
 
                 Console.WriteLine(car2[0].Color);
                 Console.WriteLine(car2[0].Fuel);

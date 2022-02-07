@@ -37,6 +37,9 @@ while (repeat)
 
     switch (ans)
     {
+        case "GetPokeAbility":
+            menu = new GetPokeAbility(new PokemonBL ( new Repository()));
+            
         case "SearchPokemon":
         
             Log.Information("Displaying SearchPokemon menu to user");

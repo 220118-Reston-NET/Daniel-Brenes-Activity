@@ -2,6 +2,9 @@ namespace ConversionFunction
 {
     public class Conversion
     {
+        //Static fields are shared between all objects from this class
+        //In this way if you need a universal information that needs to be stored and shared to every object from this
+        //Use a static field
         public static int _num;
         public static void ConversionMain()
         {
