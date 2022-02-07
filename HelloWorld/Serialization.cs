@@ -39,7 +39,7 @@ namespace SerializationFunction
             
             //File.ReadAllText() static method will read our JSON file and store it in our jsonString2
             
-
+            //First catch block most specific
             //Try block is used to have lines of code that you might expect to run into some
             try
             {
@@ -54,7 +54,8 @@ namespace SerializationFunction
             //Catch block will execute if it did run into that specific exception
             catch (FileNotFoundException)
             {
-                Console.WriteLine("File not found");
+                //Creates a file if a file was not found
+                Console.WriteLine("File not found, Creating a new file for you!");
                 List<Car> genericList = new List<Car>();
 
                 genericList.Add(new Car());
@@ -73,12 +74,14 @@ namespace SerializationFunction
             }
             catch (System.Exception)
             {
+                Console.WriteLine("Random exception caught");
 
             }
+            //Finally block will execute the lines of code regardless if an exception is found or not
+            //Usually used for "clean up"
             finally
             {
                 Console.WriteLine("All exceptions handled");
-
             }
             
             
