@@ -38,12 +38,12 @@ namespace SerializationFunction
             Console.WriteLine("=Converting JSON to object=");
             
             //File.ReadAllText() static method will read our JSON file and store it in our jsonString2
-            string jsonString2 = File.ReadAllText(_filepath);
+            
 
             //Try block is used to have lines of code that you might expect to run into some
             try
             {
-                
+                string jsonString2 = File.ReadAllText(_filepath);
 
                 Car car2 = JsonSerializer.Deserialize<Car>(jsonString2);
                 Console.WriteLine(car2.Color);
