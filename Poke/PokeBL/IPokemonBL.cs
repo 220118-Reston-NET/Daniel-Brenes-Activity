@@ -6,7 +6,7 @@ namespace PokeBL
     /// Business Layer is responsible for further validation or processing of data obtained from either the database or the user
     /// What kind of processing? That all depends on the type of functionality you will be doing
     /// </summary>
-    public interface IPokemonBL
+      public interface IPokemonBL
     {
         /// <summary>
         /// Will add a pokemon data to the database
