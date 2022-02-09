@@ -3,49 +3,56 @@ using PokeModel;
 
 namespace PokeBL
 {
-public class PokemonBL : IPokemonBL
-{
-    //Dependency Injection
-    //======================
-    //This is the main reason why we created interface first before the class
-    //This will save you time on re-writing code that breaks if you updated a completely separate class
-    //Main reason is to prevent us from re-writing code that already existed on (potentially) 50 files or more
-    // without the compiler telling us
-
-    private IRepository _repo;
-    public PokemonBL(IRepository p_repo)
+    public class PokemonBL : IPokemonBL
     {
-        _repo = p_repo;
 
-    }
-    public Pokemon AddPokemon(Pokemon p_poke)
-    {
-        Random rand = new Random();
-
-        //Processing data to meet conditions
-        //It will either subtract or add a range from -5 to 5
-        //p_poke.Attack += rand.Next(-5, 5); 
-
-
-        p_poke.Attack = p_poke.Attack + rand.Next(-5, 5);
-        p_poke.Defense += rand.Next(-5,5);
-        p_poke.Health += rand.Next(-5,5);
-        
-        // Validation process
-        List<Pokemon> listOfPoke = _repo.GetAllPokemon();
-        if (listOfPoke.Count < 4)
+        //Dependency Injection Pattern
+        //- This is the main reason why we created interface first before the class
+        //- This will save you time on re-writting code that breaks if you updated a completely separate class
+        //- Main reason is to prevent us from re-writting code that already existed on (potentailly) 50 files or more without
+        //the compiler helping us
+        //===========================
+        private IRepository _repo;
+        public PokemonBL(IRepository p_repo)
         {
-           return _repo.AddPokemon(p_poke);
+            _repo = p_repo;
         }
-        else
+        //============================
+
+        public Pokemon AddPokemon(Pokemon p_poke)
         {
-                    throw new Exception ("You cannot have more than 4 pokemon");
+            Random rand = new Random();
+
+            //Processing data to meet conditions
+            //It will either substract or add a range from -5 to 5
+            p_poke.Attack += rand.Next(-5,5);
+            p_poke.Defense += rand.Next(-5,5);
+            p_poke.Health += rand.Next(-5,5);
+
+            //Validation process
+            List<Pokemon> listOfPoke = _repo.GetAllPokemon();
+            if (listOfPoke.Count < 4)
+            {
+                return _repo.AddPokemon(p_poke);
+            }
+            else
+            {
+                throw new Exception("You cannot have more than 4 pokemons!");
+            }
         }
 
-        //return _repo.AddPokemon(p_poke);
-    }
-    public List<Pokemon> SearchPokemon(string p_name)
-    {
+        public List<Ability> GetAbilitiesByPokeId(int p_pokeId)
+        {
+            return _repo.GetAbilitiesByPokeId(p_pokeId);
+        }
+
+        public List<Pokemon> GetAllPokemon()
+        {
+            return _repo.GetAllPokemon();
+        }
+
+        public List<Pokemon> SearchPokemon(string p_name)
+        {
             List<Pokemon> listOfPokemon = _repo.GetAllPokemon();
 
 
@@ -63,7 +70,6 @@ public class PokemonBL : IPokemonBL
             // }
 
             // //return the filtered/another list
+        }
     }
-
-}
 }

@@ -3,6 +3,7 @@ using CollectionFunction;
 using ConversionFunction;
 using SerializationFunction;
 using OOPFunction;
+using MoreConversionFunction;
 
 //This will print whatever string you put in the parenthesis into the terminal
 // Console.WriteLine("Hello, World!");
@@ -87,4 +88,4 @@ Serialization.SerialMain();
 
 OOP.OOPMain();
 
-//MoreConversion.MoreConvMain();
+MoreConversion.MoreConvMain();

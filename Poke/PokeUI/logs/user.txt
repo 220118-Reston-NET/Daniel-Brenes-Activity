@@ -1,0 +1,13 @@
+2022-02-08 20:45:04.574 -06:00 [INF] Displaying AddPokemon Menu to user
+2022-02-08 20:45:08.200 -06:00 [INF] Displaying AddPokemon Menu to user
+2022-02-08 20:45:10.033 -06:00 [INF] Displaying AddPokemon Menu to user
+2022-02-08 20:45:11.099 -06:00 [INF] Adding pokemon 
+Name: Daniel
+Level: 100
+Attack: 55
+Defense: 55
+Health: 55
+2022-02-08 20:45:26.097 -06:00 [WRN] Failed to add pokemon due to reaching total capacity (4)
+2022-02-08 20:47:50.319 -06:00 [INF] Displaying MainMenu to user
+2022-02-08 20:47:52.020 -06:00 [INF] Exiting application
+2022-02-08 20:55:05.494 -06:00 [INF] Displaying SearchPokemon Menu to user
